@@ -1,0 +1,418 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #0e0501;
+}
+
+.nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px 25px;
+    color:white;
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+ul{
+    /* border:1px solid yellow; */
+    display: flex;
+    column-gap: 8vw;
+    row-gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 17px;
+}
+
+#nav_button{
+    border-radius: 5px;
+    padding: 7px 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #0e0501;
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+
+.page1{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap-reverse;    
+    row-gap: 30px;
+    column-gap: 20px;
+    /* padding: 120px 20px; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 80vh; */
+    width: 100%;
+    /* padding: 0px 50px; */
+    /* margin: 0px 100px; */
+    padding:130px 0px;
+}
+
+.first_page_text{
+    /* margin-top: 50px; */
+    color: white;
+    /* border:2px solid pink; */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+#h1first{
+    margin: 10px 10px;
+    font-size: 40px;
+}
+#pfirst{
+    margin: 10px 10px;
+}
+.first_page_two_buttons{
+    margin: 10px 10px;
+}
+.b1{
+    padding: 8px 20px;
+    background-color: #f26933;
+    border-width: 0px;
+    border-radius: 5px;
+    color:white;
+    margin: 0px 10px;
+}
+.b1:hover{
+    background-color: white;
+    color:black;
+    transition: all 0.5s;
+}
+.first_page_money{
+    margin: 10px 10px;
+    display: flex;
+    column-gap: 20px;
+    font-size: 30px;
+}
+
+
+.first_page_image{
+    /* border: 2px solid yellow; */
+    background-image: url("Fotor_AI.png");
+    height: 350px;
+    width: 300px;
+    /* width:fit-content; */
+    background-repeat: no-repeat;
+    background-position: 130px center ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.im1{
+    height: 220px;
+    border: 10px solid white;
+    border-radius: 5px;
+    
+}
+
+.first_page_image{
+    height: 50vh;
+    /* margin-top: ; */
+}
+.first_page_text{
+    height: 50vh;
+}
+
+.logos{
+    color:white;
+    /* border: 1px solid red; */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* font-size: 100px; */
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: #f26933;
+}
+
+#log_text{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.nav_color:hover{
+    color: #fb9f7b;
+    transform: scale(1.1);
+    transition: all .3s;
+}
+
+.page2{
+    padding: 20px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border: 2px solid blue; */
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    /* margin-bottom: 90px; */
+}
+
+.page2img{
+    height: 350px;
+    width: 250px;
+    /* border:2px solid yellow; */
+    background-image: url("https://images.nightcafe.studio/jobs/CQhiSXerXCT96ROPyVeR/CQhiSXerXCT96ROPyVeR--1--w751m_2x.jpg?tr=w-1600,c-at_max");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.page2text{
+    padding: 10px 20px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    /* column-gap: 200px; */
+    row-gap: 20px;
+}
+#ancher{
+    text-decoration: none;
+    color: white;
+    border:5px solid #f26933;
+    padding: 5px 10px;
+    border-radius:5px
+}
+#ancher:hover{
+    background-color:#f26933;
+    transition: all 0.2s;
+}
+
+.page_2_container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+    /* height: 50px; */
+    /* border: 5px solid red;; */
+    color: #fb9f7b;
+}
+
+.c1{
+    border-bottom-style: dashed;
+    /* height: 50px; */
+    font-size: 20px;
+}
+
+
+
+.page3{
+    font-family: 'Roboto Condensed', sans-serif;
+    /* border: 2px solid yellow; */
+    color:white;
+    margin: 90px 0px;
+    /* height: 90vh; */
+    /* margin: bottom 50vh; */
+}
+
+
+
+.p3boxes{
+    /* border:2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 5px;
+}
+
+.bos1{
+    background-image: url("https://cdn.pixabay.com/photo/2023/01/06/02/01/baby-7700270_960_720.jpg");
+}
+.bos2{
+    background-image: url("https://uploads-ssl.webflow.com/5f7ece8a7da656e8a25402bc/63296d321c3dac1492e06328_LYukEZFbOtedOYQcL7WJ-Fpx_E9lgZvb2CaHsJhhhkkh9S2mMiQUBgcBisHbV_tVt2oN32my7uO_qgqDTr0bEbygLSgoJkNkcZNw3UidPkxqU7EUOK79bOnxwMl0z2kVqbNEGdSIkuO8y0l5DbDm-2psokq2pxDJTQFUto1G3aAIcRQzcCzhIrIyjQ.png");
+}
+.bos3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXXXDSRrCtniHl7GBh722GiaOaq7KIerMXJA&usqp=CAU");
+}
+
+.bos1,.bos2,.bos3{
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.p3text{
+    margin: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+
+.box1,.box2,.box3 > p{
+    text-align: center; 
+    /* color:red;  */
+    text-align: center;
+    font-size: 22px;
+}
+
+.p3text{
+    text-align: center;
+}
+
+.page4{
+    margin: 30px 0px;
+    /* border: 2px solid blue; */
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    height: 70vh;
+}
+.graph{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/623/307/original/red-and-green-candlestick-chart-with-marked-high-and-low-positions-and-volume-chart-on-black-background-trading-graphic-design-concept-financial-stock-market-cryptocurrency-graph-illustration-vector.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: 400px;
+    /* border: 2px solid red; */
+}
+.page4 > h2{
+    text-align: center;
+    color: #ffffff;
+}
+
+.page5{
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 30px;
+    padding: 50px 0px;
+    height: 90vh;
+}
+.p5text{
+    /* border: 1px solid red; */
+    max-width: 600px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    row-gap: 20px;
+    column-gap: 20px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.p5image{
+    background-image: url('https://w0.peakpx.com/wallpaper/30/306/HD-wallpaper-floating-in-asteroids-astronaut-asteroid-belt-space.jpg');
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    outline: 5px solid white;
+    /* padding: 10px; */
+    /* margin: 20px; */
+}
+
+#take_text{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 14px 30px;
+    border-radius: 40px;
+    background-color: #fb9f7b;
+    color: black;
+}
+#c1{
+    display: none;
+}
+label{
+    display: none;
+}
+
+
+
+#c1:checked ~ .after {
+   right: 5px;
+ /* transition: all 0.5s; */
+}
+
+.after{
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right:-110%;
+    top:60px;
+    border:2px solid rgb(255, 255, 255);
+    height: 200px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content:space-evenly;
+    border-radius: 5px;
+    overflow: hidden;
+    /* display: none; */
+    transition: all 0.5s;
+    
+}
+.after ul{
+    display: flex;
+    flex-direction: column;
+}
+.after button{
+    height: 40px;
+    font-size: 20px;;
+    border-radius: 50px;
+}
+
+
+@media only screen and (max-width: 750px){
+    label{
+        display: block;
+    }
+
+    #ull{
+        display: none;
+    }
+    #nav_button{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .after{
+        display: none;
+    }
+}
+
+body{
+    overflow-X: hidden;
+}
+#c1:checked ~ label{
+    transform: rotate(180deg) scale(2) ;
+    color: #f26933;
+}
+label{
+    transition:all 0.5s;
+}
