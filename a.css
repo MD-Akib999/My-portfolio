@@ -161,7 +161,7 @@ ul{
     font-family: 'Roboto Condensed', sans-serif;
     /* border: 2px solid blue; */
     color: #fff;
-    height: 80vh;
+/*     height: 80vh; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
